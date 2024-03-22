@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.head{
+    background-color: aqua;
+    height: 20vh;
+}
+
+.main{
+    background-color: brown;
+    height: 70vh;
+    margin: 0 5vw 0 5vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+}
+
+.side{
+    background-color: blue;
+
+}
+
+.content{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.preview{
+    
+    margin: 5%;
+    background-color: aquamarine;
+}
